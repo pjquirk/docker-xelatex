@@ -11,7 +11,7 @@ RUN apt update && \
   ca-certificates \
   make \
   texlive-fonts-recommended \
-  texlive-generic-recommended \
+  texlive-latex-recommended \
   texlive-lang-english \
   texlive-lang-italian \
   texlive-latex-extra \
