@@ -16,7 +16,8 @@ RUN apt update && \
   texlive-lang-italian \
   texlive-latex-extra \
   texlive-xetex \
-  lmodern 
+  lmodern \
+  texlive-fonts-extra
 
 # Export the output data
 WORKDIR /data
