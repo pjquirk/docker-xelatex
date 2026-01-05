@@ -11,14 +11,15 @@ RUN apt update && \
   curl \
   ca-certificates \
   make \
+  texlive-full \
   texlive-fonts-recommended \
+  texlive-fonts-extra \
   texlive-latex-recommended \
   texlive-lang-english \
   texlive-lang-italian \
   texlive-latex-extra \
   texlive-xetex \
-  lmodern \
-  texlive-fonts-extra
+  lmodern
 
 # Export the output data
 WORKDIR /data
